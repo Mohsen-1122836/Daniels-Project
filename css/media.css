@@ -1,0 +1,54 @@
+@media screen and (min-width:576px) {
+    .navbar-collapse{
+        position: absolute;
+        top: 70%;
+        left: 0;
+        right:0;
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+    }
+   
+}
+
+@media screen and (min-width:768px) {
+    .navbar-collapse{
+        position: static;
+        
+        background-color: transparent;
+        color: black;
+        text-align: inherit;
+    }
+
+    .navbar-nav .nav-link.active{
+        position: relative;
+    }
+
+    .navbar-nav .nav-link.active::before{
+    content: "";
+    width: 65%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+}
+@media screen and (min-width:992px) {
+   
+}
+
+@media screen and (min-width:1200px) {
+    #home .h-sec a{
+        font-size: 60px !important;
+     }
+        #home .h-sec h2{
+            font-size: 60px;
+        }
+        #home a{
+            padding: 20px;
+        }
+
+      
+}
